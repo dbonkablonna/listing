@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .demonImage {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        ul.ua {
+            list-style-type: none;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+            background-color: white;
+        }
+        li.la {
+            float: right;
+        }
+        li a {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover {
+            border-bottom: 2px solid black;
+        }
+
+        .img-container {
+            width: 33.33%;
+            padding: 5px;
+            float: left;
+            text-align: center;
+       
+        }
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .images {
+            width: 500px;
+	    	font-family:New York Medium;
+            border-width: 2px;
+            border-top-style: solid;
+            padding: 5px;
+            margin: auto;
+            text-align: left;
+        }
+        .content_article-describe {
+            text-align: center;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 26.4px;
+        }
+        .footer {
+            width: 100%;
+            clear: both;
+            background-color: black;
+            color: white;
+            padding: 15px;
+            outline: black solid 10px;
+        }
+        .footera {
+            text-align: center;
+            padding: 5px;
+            background-color: black;
+            height: 100px;
+            margin: auto;
+        }
+        .footera span,
+        .footera div {
+            display: inline-block;
+            padding: 5px;
+            font-size: 22px;
+            font-family: SF pro;
+            background-color: black;
+        }
+        .footer-links {
+            text-align: center;
+            padding: 5px;
+	
+        }
+        .footer-links div {
+            display: inline-block;
+            padding: 5px;
+            background-color: black;
+            font-family: SF pro;
+            text-decoration-line: underline;
+	    height:80px;
+        }
+
+	div.gallery {
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		width:650px;
+	}
+
+	div.gallery img {
+  		width: 50%;
+  		height: auto;
+	}
+
+	div.desc {
+
+  		padding: 15px;
+  		text-align: center;
+	}
+
+	.container {
+  		position: relative;
+        
+	}
+    
+    .black-box {
+      		position: relative;
+      		z-index: 1;
+      		border-top-style: solid;
+      		height: 100px;
+
+	}
+
+	.green-box {
+      		position: absolute;
+      		z-index: 2; /* green box will be above black box */
+      		width: 10%;
+      		left: 700px;
+      		top: -70px;
+
+	}
+    
+    input[type=text]{
+      width: 75%;
+      padding: 12px;
+      border: 1px solid #ccc;
+
+      resize: vertical;
+    }
+    button[type=submit] {
+      background-color: black;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+      float: right;
+    }
+    </style>
+</head>
+<body>
+
+<ul class="ua">
+    <li style="display: inline-block;color: black;text-align: center; padding: 14px 16px;text-decoration: none;">NORDIC ROSE</li>
+        <li class= "la"><a href="#PROJECTS">PROJECTS</a></li>
+        <li class= "la"><a href="#LINKS">LINKS</a></li>
+        <li class= "la"><a href="#ABOUT">ABOUT</a></li>
+    	<li class= "la"><a href="#BLOG">BLOG</a></li>
+
+
+</ul>
+
+
+<div style="width:650px;height:200px;font-size:50px;margin: auto;text-align:center;font-family:New York Extra Large;">
+    <strong >A few words about this blog platform, Ghost, and how this site was made</strong><br>
+    <div style="width:450px;height:200px;font-size:20px;margin: auto;text-align:center;font-family:SF Mono;">Why Ghost (& Figma) instead of Medium, WordPress or other options?</div>
+</div>
+<br><br>
+
+
+<img src="panel.png" alt="panel" style="width:100%;">
+<br><br>
+
+<div class="images">
+	<p ><img src="avatar.png" alt="avatar" style="width:10%;float:left;margin:10px;">
+	<strong>Mika MAtikainen </strong> <img src="icon.png" alt="icons" style="width:30%;float:right;"> <br> 
+	Apr 15, 2020 · 4 min read
+	</p> 
+	<br><br>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at viverra. 
+<br><br>
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula. In eu dui molestie, molestie lectus eu, semper lectus. <br><br><br><br>
+
+<strong style="font-family:SF Pro;">Next on the pipeline</strong><br><br>
+
+Duis eu velit tempus erat egestas efficitur. In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+<br><br>
+
+Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla. 
+<br><br><br>
+</div>
+
+
+<div class="gallery">
+
+    <img src="Picture14.png" alt="tengu" style="width:100%;">
+
+  <div class="desc">Image caption centered this way and I’ll make this a bit longer <br>to indicate the amount of line-height. </div>
+</div>
+
+<div class="images", style="border:none;">
+	Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula. 
+<br><br>
+In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, auctor nisl et, consequat ante. Donec sit amet nisi arcu. Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla. Nulla non volutpat leo. <br><br><br><br>
+
+A list looks like this:<br>
+<ul>
+	<li>First item in the list</li><br>
+	<li>Second item in the list lorem ipsum dolor sit amet nunc felis dolor lorem ipsum sit amet</li><br>
+
+	<li>Third item in the list</li><br><br>
+
+</ul>
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula. 
+<br><br>
+Thanks for reading,<br>
+Mika
+
+<br><br><br>
+  <div style= "margin:auto;border-style:groove;">
+        <div class="clearfix">
+            <div class="img-container" style="border:groove;width:50%;">
+            
+                <a href="#PROJECTS"><img src="shareOnFace.png" alt="" width="180"></a>
+
+            </div>
+            <div class="img-container" style="border:groove;width:50%;">
+                <a href="#LINKS"><img src="shareOnTwi.png" alt="" width="165"></a>
+
+            </div>
+        </div>
+  </div>
+	<br>
+
+	Tags: <a href="#PROJECTS" style="text_decoration:underline;">product design</a >, <a href="#LINKS" style="text_decoration:underline;">culture</a>
+	<br>
+	<br>
+	<div style="border-top-style:dotted;">
+		<p style="font-family:SF Pro;"> <a href="#LINKS"><img src="avatar.png" alt="avatar" style="width:10%;float:left;margin:10px;"></a>
+		<strong>MIKA MATIKAINEN </strong> is a Design Founder & Advisor, Berlin School of Creative Leadership Executive MBA participant, Zippie advisor, Wolt co-founder, and Nordic Rose stakeholder.  
+		</p> 
+		<br><br>
+	</div>
+</div>
+<br>
+<br>
+<br>
+
+
+<div class="container">
+  <div class="black-box"></div>
+  <div class="green-box"><img src="eyes.png" alt="eyes"></div>
+        <div class="clearfix" style="width:1000px;margin:auto;">
+            <div class="img-container">
+                <img src="Picture2.png" alt="" style="width:100%;">
+                <p class="content_article-describe">Connecting artificial <br>intelligence with digital <br>product design</p>
+            </div>
+
+            <div class="img-container">
+                <img src="Picture3.png" alt="" style="width:100%;">
+                <p class="content_article-describe">Hello world, or, in other <br>words, why this blog exists</p>
+            </div>
+		
+	    <div class="img-container">
+                <img src="Picture1.png" alt="" style="width:100%;">
+                <p class="content_article-describe">Here are some things you <br>should know regarding how<br> we work </p>
+            </div>
+        </div>
+	
+	<div class="clearfix" style="width:1000px;margin:auto;">
+            <div class="img-container">
+                <img src="Picture15.png" alt="" style="width:100%;">
+                <p class="content_article-describe">A few words about this blog <br>platform, Ghost, and how <br>this site was made</p>
+            </div>
+
+            <div class="img-container">
+                <img src="Picture13.png" alt="" style="width:100%;">
+                <p class="content_article-describe">Updating list of 50+ sources<br> on distributed teams, remote <br>work, and how to make it all <br>work better</p>
+            </div>
+		
+	    <div class="img-container">
+                <img src="Picture12.png" alt="" style="width:100%;">
+                <p class="content_article-describe">How modern remote <br>working tools get along with <br>Old School Cowboy's <br>methods </p>
+            </div>
+        </div>
+
+</div>
+<br>
+
+          <div style="width:400px;height:200px;margin:auto;text-align:center;border:groove;">
+            <div style="padding:25px;font-family:SF Pro;">
+              <strong style="font-family:New York Extra Large;font-size:26px;">Sign up for the newsletter</strong><br>
+              <span>If you want relevant updates occasionally, sign up for the
+                private newsletter. Your email is never shared.
+              </span> <br><br><br>
+              <div style="margin:auto;">
+                <input type="text" name="email" placeholder="Enter your email ..." required />
+                <button type="submit" style="color:white;background-color:black;">Sign up</button>
+              </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          
+<div class="footer">
+    <div class="footera">
+        <span><strong>DIGITAL PRODUCT DESIGN</strong></span>
+        <span>REMOTE WORK</span>
+        <span><strong>UX DESIGN</strong></span>
+        <span>DISTRIBUTED TEAMS</span>
+        <span><strong>SUSPENSE</strong></span>
+        <span>CREATIVITY</span>
+        <span><strong>STRATEGY</strong></span>
+        <span>GROWTH</span>
+    </div>
+
+    <div style="text-align:center;font-size:50px;font-family:SF pro;height:75px;">
+        NORDIC ROSE
+
+    </div>
+
+    <div style="margin:auto;text-align:center;width:30%;height:80px;"> 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu <br>
+        velit tempus erat egestas efficitur. In hac habitasse platea <br>
+        dictumst. Fusce a nunc eget ligula suscipit finibus. 
+    </div>
+
+
+    <div class="footer-links">
+        <div>Twitter</div>
+        <div>LinkedIn</div>
+        <div>RSS</div>
+    </div>
+
+    <div style="margin:auto;text-align:center;font-size:12px;"> 
+	© 2012–2020 Nordic Rose Co. <br>
+	All rights reserved. 
+    </div>
+
+</div>
+
+</body>
+</html>
